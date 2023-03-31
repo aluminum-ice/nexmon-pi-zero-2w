@@ -8,4 +8,4 @@ cp /lib/firmware/brcm/brcmfmac43436-sdio.bin brcmfmac43436-sdio.bin.orig
 
 cp brcmfmac43436-sdio.bin /lib/firmware/brcm/brcmfmac43436-sdio.bin
 rmmod brcmfmac
-insmod $(DRIVER_FOLDER_NAME)/brcmfmac.ko
+insmod brcmfmac
