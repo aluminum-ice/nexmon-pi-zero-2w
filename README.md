@@ -6,6 +6,7 @@ cp /lib/firmware/brcm/brcmfmac43436-sdio.bin brcmfmac43436-sdio.bin.orig
 
 ### Install new firmware
 
-1. cp brcmfmac43436-sdio.bin /lib/firmware/brcm/brcmfmac43436-sdio.bin
-2. rmmod brcmfmac
-3. insmod brcmfmac
+1. sudo su
+2. cp brcmfmac43436-sdio.bin /lib/firmware/brcm/brcmfmac43436-sdio.bin
+3. rmmod brcmfmac
+4. insmod brcmfmac
