@@ -1,4 +1,4 @@
-# nexmon-pi-zero-2w-20230330
+# nexmon-pi-zero-2w
 
 ### Backup original firmware
 
