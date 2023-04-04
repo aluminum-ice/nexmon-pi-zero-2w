@@ -1,5 +1,7 @@
 # nexmon-pi-zero-2w
 
+Pre-built nexmon files for the Raspberry Pi Zero 2 W [from DrSchottky's fork](https://github.com/DrSchottky/nexmon)
+
 1. `cp /lib/lib* /usr/local/lib/`
 2. `cp -r /lib/pkgconfig /usr/local/lib/`
 3. `ln -s /usr/local/lib/libisl.so.10.0.0 /usr/local/lib/libisl.so`
