@@ -11,8 +11,8 @@
 9. `ln -s /usr/local/lib/libisl.so /usr/lib/arm-linux-gnueabihf/libisl.so.10`
 10. `ln -s /usr/local/lib/libmpfr.so /usr/lib/arm-linux-gnueabihf/libmpfr.so.4`
 11. `mv /lib/firmware/brcm/brcmfmac43436-sdio.bin /lib/firmware/brcmfmac43436-sdio.bin.orig `
-12. `mv \lib\brcmfmac43436-sdio.bin /lib/firmware/lib/firmware/brcm/brcmfmac43436-sdio.bin`
-13. `cp \lib\brcmfmac.ko /lib/modules/5.10.103-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/`
-14. `cp \bin\nexutil /usr/bin/`
+12. `mv /lib/brcmfmac43436-sdio.bin /lib/firmware/lib/firmware/brcm/brcmfmac43436-sdio.bin`
+13. `cp /lib/brcmfmac.ko /lib/modules/5.10.103-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/`
+14. `cp /bin/nexutil /usr/bin/`
 15. `depmod -a`
 16. `reboot`
