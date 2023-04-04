@@ -1,6 +1,6 @@
 # nexmon-pi-zero-2w
 
-Pre-built nexmon files for the Raspberry Pi Zero 2 W [from DrSchottky's fork](https://github.com/DrSchottky/nexmon)
+Pre-built nexmon files for the Raspberry Pi Zero 2 W [from DrSchottky's fork](https://github.com/DrSchottky/nexmon). These are for old stable Buster lite 2023-02-22 using kernel 5.10
 
 1. `cp /lib/lib* /usr/local/lib/`
 2. `cp -r /lib/pkgconfig /usr/local/lib/`
