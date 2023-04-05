@@ -26,4 +26,3 @@ cp ../driver/brcmfmac.ko /lib/modules/5.10.103-v7+/kernel/drivers/net/wireless/b
 
 cp ../bin/nexutil /usr/bin/
 
-depmod -a
