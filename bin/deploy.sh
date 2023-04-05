@@ -22,8 +22,8 @@ cp /lib/firmware/brcm/brcmfmac43436-sdio.bin /lib/firmware/brcmfmac43436-sdio.bi
 cp ../lib/brcmfmac43436-sdio.bin /lib/firmware/brcm/brcmfmac43436-sdio.bin
 
 cp /lib/modules/5.10.103-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko /lib/modules/5.10.103-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko.orig
-
 cp ../lib/brcmfmac.ko /lib/modules/5.10.103-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/
+
 cp ../bin/nexutil /usr/bin/
 
 depmod -a
