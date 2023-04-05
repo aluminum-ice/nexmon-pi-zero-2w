@@ -18,7 +18,7 @@ chown -R root:root /usr/local/lib/pkgconfig
 ln -s /usr/local/lib/libisl.so /usr/lib/arm-linux-gnueabihf/libisl.so.10
 ln -s /usr/local/lib/libmpfr.so /usr/lib/arm-linux-gnueabihf/libmpfr.so.4
 
-cp /lib/firmware/brcm/brcmfmac43436-sdio.bin /lib/firmware/brcmfmac43436-sdio.bin.orig
+cp /lib/firmware/brcm/brcmfmac43436-sdio.bin /lib/firmware/brcm/brcmfmac43436-sdio.bin.orig
 cp ../driver/brcmfmac43436-sdio.bin /lib/firmware/brcm/brcmfmac43436-sdio.bin
 
 cp /lib/modules/5.10.103-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko /lib/modules/5.10.103-v7+/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko.orig
